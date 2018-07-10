@@ -1,0 +1,19 @@
+[ 2018-07-10T09:40:47+08:00 ] 127.0.0.17 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:dbname=singwashop;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'nanchang' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (7,5,2,1)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1531186847  AND `category_id` = 1  AND `city_id` = 5  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-10T09:40:57+08:00 ] 127.0.0.17 127.0.0.1 POST /index/user/logincheck.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=singwashop;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_user` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_user` WHERE  `username` = 'teacher8' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------

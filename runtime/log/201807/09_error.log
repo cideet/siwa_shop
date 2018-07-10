@@ -1,0 +1,45 @@
+[ 2018-07-09T17:49:39+08:00 ] 127.0.0.17 127.0.0.1 GET /
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+[D:\wamp\www\singwa_shop\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-07-09T17:51:01+08:00 ] 127.0.0.17 127.0.0.1 GET /
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[D:\wamp\www\singwa_shop\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-07-09T17:51:03+08:00 ] 127.0.0.17 127.0.0.1 GET /
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[D:\wamp\www\singwa_shop\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-07-09T17:51:27+08:00 ] 127.0.0.17 127.0.0.1 GET /
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[D:\wamp\www\singwa_shop\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-07-09T17:51:34+08:00 ] 127.0.0.17 127.0.0.1 GET /
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[D:\wamp\www\singwa_shop\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-07-09T17:53:01+08:00 ] 127.0.0.17 127.0.0.1 GET /
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[D:\wamp\www\singwa_shop\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-07-09T17:54:17+08:00 ] 127.0.0.17 127.0.0.1 GET /
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[D:\wamp\www\singwa_shop\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-07-09T17:54:19+08:00 ] 127.0.0.17 127.0.0.1 GET /
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[D:\wamp\www\singwa_shop\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-07-09T17:54:29+08:00 ] 127.0.0.17 127.0.0.1 GET /
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[D:\wamp\www\singwa_shop\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-07-09T17:54:46+08:00 ] 127.0.0.17 127.0.0.1 GET /
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[D:\wamp\www\singwa_shop\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-07-09T17:59:49+08:00 ] 127.0.0.17 127.0.0.1 GET /index/user/register.html
+[ error ] [1]Call to undefined function captcha_img()[D:\wamp\www\singwa_shop\runtime\temp\3b8735e73b18469fe5040c744d97359b.php:51]
+
+---------------------------------------------------------------
