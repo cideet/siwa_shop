@@ -1,0 +1,54 @@
+[ 2019-01-09T18:15:24+08:00 ] 127.0.0.59 127.0.0.1 GET /
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+[D:\wamp\www\singwa\teacher_code\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:16:43+08:00 ] 127.0.0.59 127.0.0.1 GET /
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[D:\wamp\www\singwa\teacher_code\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:16:52+08:00 ] 127.0.0.59 127.0.0.1 GET /
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'singwashop.o2o_city' doesn't exist[D:\wamp\www\singwa\teacher_code\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:17:46+08:00 ] 127.0.0.59 127.0.0.1 GET /
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'[D:\wamp\www\singwa\teacher_code\thinkphp\library\think\db\Connection.php:362]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:18:18+08:00 ] 127.0.0.59 127.0.0.1 GET /
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[D:\wamp\www\singwa\teacher_code\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:18:59+08:00 ] 127.0.0.59 127.0.0.1 GET /
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[D:\wamp\www\singwa\teacher_code\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:19:05+08:00 ] 127.0.0.59 127.0.0.1 GET /
+[ error ] [1]Class '\think\db\connector\Mysqli' not found[D:\wamp\www\singwa\teacher_code\thinkphp\library\think\Db.php:87]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:19:40+08:00 ] 127.0.0.59 127.0.0.1 GET /
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'[D:\wamp\www\singwa\teacher_code\thinkphp\library\think\db\Connection.php:362]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:19:40+08:00 ] 127.0.0.59 127.0.0.1 GET /
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[D:\wamp\www\singwa\teacher_code\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:19:43+08:00 ] 127.0.0.59 127.0.0.1 GET /
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[D:\wamp\www\singwa\teacher_code\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:21:03+08:00 ] 127.0.0.59 127.0.0.1 GET /
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'[D:\wamp\www\singwa\teacher_code\thinkphp\library\think\db\Connection.php:362]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:21:05+08:00 ] 127.0.0.59 127.0.0.1 GET /
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'[D:\wamp\www\singwa\teacher_code\thinkphp\library\think\db\Connection.php:362]
+
+---------------------------------------------------------------

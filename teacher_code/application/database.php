@@ -13,15 +13,15 @@ return [
     // 数据库类型
     'type'           => 'mysql',
     // 服务器地址
-    'hostname'       => 'localhost',
+    'hostname'       => '47.93.246.250',
     // 数据库名
-    'database'       => 'imooc_o2o',
+    'database'       => 'singwashop',
     // 用户名
-    'username'       => 'root',
+    'username'       => 'singwashop',
     // 密码
-    'password'       => 'root',
+    'password'       => 'il7etBh1zzutGxi4',
     // 端口
-    'hostport'       => '8889',
+    'hostport'       => '',
     // 连接dsn
     'dsn'            => '',
     // 数据库连接参数
