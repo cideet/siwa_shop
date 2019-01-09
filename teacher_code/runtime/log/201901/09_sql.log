@@ -104,3 +104,150 @@
 [ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  (   end_time> 1547029575 AND  status= 1 AND category_id = 2 AND city_id = 9 ) ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.018256s ]
 
 ---------------------------------------------------------------
+[ 2019-01-09T18:52:44+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.655057s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.028877s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.020492s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.017946s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:52:46+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.525078s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.021717s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.025137s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:52:51+08:00 ] 127.0.0.59 127.0.0.1 POST /index.php/admin/category/save.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.385924s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.020244s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_category` (`name` , `parent_id` , `status` , `update_time` , `create_time`) VALUES ('111111111111111' , 5 , 1 , 1547031169 , 1547031169) [ RunTime:0.905078s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:52:54+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.737554s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.030125s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.018123s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:53:00+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.601062s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.023521s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.022776s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:53:02+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:7.943955s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.027061s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.028050s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:53:10+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.781884s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.025063s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.026015s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.025082s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:53:15+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.799649s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.021196s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.019424s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:53:18+08:00 ] 127.0.0.59 127.0.0.1 POST /index.php/admin/category/save.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022183s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.018323s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_category` (`name` , `parent_id` , `status` , `update_time` , `create_time`) VALUES ('11111111111' , 0 , 1 , 1547031198 , 1547031198) [ RunTime:0.018067s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:53:22+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.381048s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.019222s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.024826s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:53:28+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.694335s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.025187s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.024234s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.022428s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:53:35+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.387247s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.024794s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.021822s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:53:39+08:00 ] 127.0.0.59 127.0.0.1 POST /index.php/admin/category/save.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035728s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.018810s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_category` (`name` , `parent_id` , `status` , `update_time` , `create_time`) VALUES ('222222222222' , 0 , 1 , 1547031218 , 1547031218) [ RunTime:0.905608s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:53:43+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035938s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.022251s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.859070s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:53:49+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.528682s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.018034s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.019972s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.014450s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:54:02+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/status.html?id=11&status=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.519756s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.020750s ]
+[ sql ] [ SQL ] UPDATE `o2o_category`  SET `status`=0,`update_time`=1547031241  WHERE  `id` = 11 [ RunTime:0.057332s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:54:06+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029290s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.856484s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.026543s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.016604s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:54:06+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.831723s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.016178s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.022014s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.022757s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:54:08+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/status.html?id=3&status=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.478442s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.026397s ]
+[ sql ] [ SQL ] UPDATE `o2o_category`  SET `status`=1,`update_time`=1547031247  WHERE  `id` = 3 [ RunTime:0.060096s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:54:10+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.582505s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.022121s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.021239s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.020979s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:54:14+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/status.html?id=11&status=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.413361s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.025212s ]
+[ sql ] [ SQL ] UPDATE `o2o_category`  SET `status`=1,`update_time`=1547031253  WHERE  `id` = 11 [ RunTime:0.029343s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:54:16+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.632708s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.029746s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.019331s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,15 [ RunTime:0.019302s ]
+
+---------------------------------------------------------------
+[ 2019-01-09T18:54:37+08:00 ] 127.0.0.59 127.0.0.1 GET /index.php/admin/bis/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.848921s ] mysql:dbname=singwashop;host=47.93.246.250;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.027749s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.020259s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.021190s ]
+
+---------------------------------------------------------------
